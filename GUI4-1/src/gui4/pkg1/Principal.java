@@ -24,18 +24,50 @@ public class Principal extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        jPanel1 = new javax.swing.JPanel();
+        jLabel1 = new javax.swing.JLabel();
+        jMenuBar1 = new javax.swing.JMenuBar();
+        jmAdmin = new javax.swing.JMenu();
+        jMenuItem1 = new javax.swing.JMenuItem();
+        jmConsultas = new javax.swing.JMenu();
+        jMenuItem2 = new javax.swing.JMenuItem();
+        jMenuItem3 = new javax.swing.JMenuItem();
+        jMenuItem4 = new javax.swing.JMenuItem();
 
-        javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
-        getContentPane().setLayout(layout);
-        layout.setHorizontalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 400, Short.MAX_VALUE)
-        );
-        layout.setVerticalGroup(
-            layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 300, Short.MAX_VALUE)
-        );
+        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        getContentPane().setLayout(null);
+
+        jPanel1.setLayout(null);
+
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/fondo-bloques-voronoi-extruido-azul-abstracto-muro-corporativo-limpio-luz-minima-ilustracion-superficie-geometrica-3d-desplazamiento-elementos-poligonales.jpg"))); // NOI18N
+        jLabel1.setToolTipText("");
+        jPanel1.add(jLabel1);
+        jLabel1.setBounds(0, 0, 750, 540);
+
+        getContentPane().add(jPanel1);
+        jPanel1.setBounds(0, 0, 743, 557);
+
+        jmAdmin.setText("Administracion");
+
+        jMenuItem1.setText("jMenuItem1");
+        jmAdmin.add(jMenuItem1);
+
+        jMenuBar1.add(jmAdmin);
+
+        jmConsultas.setText("Conusultas");
+
+        jMenuItem2.setText("jMenuItem2");
+        jmConsultas.add(jMenuItem2);
+
+        jMenuItem3.setText("jMenuItem3");
+        jmConsultas.add(jMenuItem3);
+
+        jMenuItem4.setText("jMenuItem4");
+        jmConsultas.add(jMenuItem4);
+
+        jMenuBar1.add(jmConsultas);
+
+        setJMenuBar(jMenuBar1);
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
@@ -76,5 +108,14 @@ public class Principal extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JMenuBar jMenuBar1;
+    private javax.swing.JMenuItem jMenuItem1;
+    private javax.swing.JMenuItem jMenuItem2;
+    private javax.swing.JMenuItem jMenuItem3;
+    private javax.swing.JMenuItem jMenuItem4;
+    private javax.swing.JPanel jPanel1;
+    private javax.swing.JMenu jmAdmin;
+    private javax.swing.JMenu jmConsultas;
     // End of variables declaration//GEN-END:variables
 }
