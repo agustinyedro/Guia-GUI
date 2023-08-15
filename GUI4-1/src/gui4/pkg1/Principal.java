@@ -38,14 +38,13 @@ public class Principal extends javax.swing.JFrame {
         getContentPane().setLayout(null);
 
         jPanel1.setLayout(null);
+        getContentPane().add(jPanel1);
+        jPanel1.setBounds(0, 0, 0, 0);
 
         jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/img/fondo-bloques-voronoi-extruido-azul-abstracto-muro-corporativo-limpio-luz-minima-ilustracion-superficie-geometrica-3d-desplazamiento-elementos-poligonales.jpg"))); // NOI18N
         jLabel1.setToolTipText("");
-        jPanel1.add(jLabel1);
-        jLabel1.setBounds(0, 0, 750, 540);
-
-        getContentPane().add(jPanel1);
-        jPanel1.setBounds(0, 0, 743, 557);
+        getContentPane().add(jLabel1);
+        jLabel1.setBounds(0, 0, 690, 540);
 
         jmAdmin.setText("Administracion");
 
